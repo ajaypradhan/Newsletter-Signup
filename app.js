@@ -40,7 +40,7 @@ app.post('/', function (req, res) {
         });
     });
 
-    request.write(jsonData);
+    request.write(jsonData);de
     request.end();
 });
 
